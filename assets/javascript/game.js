@@ -45,7 +45,7 @@ $(document).ready(function(){
   $("#picOne").on("click",function(){
     total += gem1;
     console.log("new total " + total);
-    $("totalScore").html(total);
+    $("#totalScore").html(total);
     if(total === target){
       win();
     } else if(total > target){
@@ -56,7 +56,7 @@ $(document).ready(function(){
   $("#picTwo").on("click",function(){
     total += gem2;
     console.log("new total " + total);
-    $("totalScore").html(total);
+    $("#totalScore").html(total);
     if(total === target){
       win();
     } else if(total > target){
@@ -67,7 +67,7 @@ $(document).ready(function(){
   $("#picThree").on("click",function(){
     total += gem3;
     console.log("new total " + total);
-    $("totalScore").html(total);
+    $("#totalScore").html(total);
     if(total === target){
       win();
     } else if(total > target){
@@ -78,7 +78,7 @@ $(document).ready(function(){
   $("#picFour").on("click",function(){
     total += gem4;
     console.log("new total " + total);
-    $("totalScore").html(total);
+    $("#totalScore").html(total);
     if(total === target){
       win();
     } else if(total > target){
